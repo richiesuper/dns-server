@@ -38,6 +38,7 @@ main(int argc, char *argv[])
 			sm_put(map, domainname, ipaddr);
 			i = 0;
 		}
+		linecnt++;
 	}
 
 	while (fgets(domainname, sizeof(domainname), stdin) != NULL) {
